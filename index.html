@@ -13,7 +13,7 @@
         <ul>
           <li>Home</li>
           <li>About</li>
-          <li>Contact</li>
+          <li onclick="subscribeForm()">Contact</li>
           <li>#Hacks</li>
         </ul>
         <h4>Design Critique</h4>
@@ -114,6 +114,27 @@
           </div>
         </article>
       </section>
+      <section id="subscribe" class="hide">
+        <h2>Interested in our service?</h2>
+        <p>Fill out this form and we will get back to you in the next day.</p>
+        <div>
+          <input type="text" name="name" id="name" placeholder="Your Name" />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your Email"
+          />
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <button onclick="sendMessage()">Send</button>
+      </section>
+      <article id="subscribed" class="hide">
+        <h2>Thanks, we've received your message!</h2>
+        <p>We'll get back to you in the next 24 hours.</p>
+        <!-- <p>Confirm to receive our newest news(?!)</p> -->
+        <button onclick="closeWindow()">Close</button>
+      </article>
     </main>
     <footer>
       <div></div>

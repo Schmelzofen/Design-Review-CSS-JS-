@@ -385,7 +385,7 @@ footer p, footer a{
 
 @media (max-width: 600px){
     header nav{
-        font-size: 2.5vh;
+        font-size: 2.2vh;
     }
     #articleOne{
         align-items: center;
@@ -395,7 +395,7 @@ footer p, footer a{
     }
     #sectionOne img{
         width: 80%;
-        padding: 0 0 3% 5%;
+        padding: 0 0 3% 15%;
     }
     #articleTwo div{
         flex-direction: column;
@@ -406,17 +406,24 @@ footer p, footer a{
     }
     #sectionTwo img{
         width: 70%;
-        margin-top: -30px;
-        margin-left: -10px;
+        margin-top: -35px;
+        margin-left: -5px;
     }
     #sectionTwo article div:nth-of-type(1){
         padding: 0% 0 0 5%;
         width: 200%;
+        margin-right: -70px;
     }
     #twentyeight{
         height: 30vh;
     }
     footer img{
         width: 50px;
+    }
+    #subscribe{
+        margin: 0 3%;
+    }
+    #subscribed{
+        margin: 10% 3%;
     }
 }
